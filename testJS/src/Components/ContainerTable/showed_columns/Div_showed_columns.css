@@ -1,0 +1,13 @@
+.showed_columns .header {
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+.showed_columns ul {
+    margin: 0;
+    padding: 0;
+}
+
+.showed_columns ul li {
+    list-style-type: none;
+}
