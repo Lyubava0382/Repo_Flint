@@ -1,4 +1,5 @@
 # Repo_Flint
-first trying create a repository
 
 Hey, I'm Danil!
+
+All my projects and crawling code snippets are stored here.
