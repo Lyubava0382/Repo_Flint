@@ -1,0 +1,4 @@
+.ContainerAll .changes_div {
+    display: grid;
+    align-items: center;
+}
