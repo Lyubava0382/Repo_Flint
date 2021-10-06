@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Game_OOP.dir/main.cpp.o CMakeFiles/Game_OOP.dir/Cell/Cell.cpp.o CMakeFiles/Game_OOP.dir/Field/Field.cpp.o CMakeFiles/Game_OOP.dir/Iterator/Iterator.cpp.o -o Game_OOP 
