@@ -1,7 +1,9 @@
 #ifndef OOP_CELL_H
 #define OOP_CELL_H
 
-class Cell{
+#include "Cell_interface.h"
+
+class Cell: public Cell_interface{
     int coord[2];
     int condition;
     char fill;
@@ -12,12 +14,12 @@ public:
     Cell(Cell&& other);
     Cell& operator=(Cell&& other);
 
-    int* get_coord();
-    int get_condition();
-    char get_fill();
-    void set_condition(int cond);
-    void set_coord(int x, int y);
-    void set_fill(char value);
+    int* get_coord() override;
+    int get_condition() override;
+    char get_fill() override;
+    void set_condition(int cond) override;
+    void set_coord(int x, int y) override;
+    void set_fill(char value) override;
 };
 
 #endif //OOP_CELL_H
