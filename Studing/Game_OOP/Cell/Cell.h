@@ -8,7 +8,7 @@ class Cell: public Cell_interface{
     int condition;
     char fill;
 public:
-    Cell(int row = -1, int col =-1,char fill = 0,int condidion = 0);
+    Cell(int row = -1, int col =-1,char fill = 0,int condition = 0);
     Cell(const Cell& other);
     Cell& operator=(const Cell& other);
     Cell(Cell&& other);
