@@ -133,6 +133,10 @@ Game_OOP: CMakeFiles/Game_OOP.dir/Cell/Cell.cpp.o
 Game_OOP: CMakeFiles/Game_OOP.dir/Field/Field.cpp.o
 Game_OOP: CMakeFiles/Game_OOP.dir/Iterator/Iterator.cpp.o
 Game_OOP: CMakeFiles/Game_OOP.dir/build.make
+Game_OOP: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1
+Game_OOP: /usr/lib/x86_64-linux-gnu/libsfml-audio.so.2.5.1
+Game_OOP: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1
+Game_OOP: /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1
 Game_OOP: CMakeFiles/Game_OOP.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Game_OOP"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Game_OOP.dir/link.txt --verbose=$(VERBOSE)

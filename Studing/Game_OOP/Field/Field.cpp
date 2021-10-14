@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Field.h"
+#include <SFML/Graphics.hpp>
 using namespace std;
 
 Field::Field(int height, int width):height(height),width(width){
@@ -84,6 +85,35 @@ Iterator* Field::createIterator(){
     return new Iterator(this->Cells, this->height, this->width);
 }
 void Field::render_field(){
+
+    sf::RenderWindow window(sf::VideoMode(800, 600), "SFML game");
+
+    window.clear();
+
+    sf::RectangleShape a;
+    float height = 20;
+    float width = 20;
+    a.setSize({height,width});
+    a.setPosition({0,0});
+    a.setFillColor(sf::Color::Green);
+    window.draw(a);
+
+    window.display();
+
+    while (window.isOpen())
+    {
+        sf::Event event;
+        while (window.pollEvent(event))
+        {
+            if (event.type == sf::Event::Closed)
+                window.close();
+        }
+
+        window.clear();
+        window.draw(a);
+        window.display();
+    }
+
     for (int i = 0; i < this->height; i++){
         for (int j = 0; j < this->width; j++){
             std::cout << this->Cells[i][j].get_fill() << ' ';
