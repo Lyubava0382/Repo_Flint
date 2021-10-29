@@ -1,31 +1,62 @@
 #include <iostream>
-#include "./Iterator/Iterator.h"
-#include "./Field/Field.h"
+#include "./Game/Iterator/Iterator.h"
+#include "./Game/Field/Field.h"
+#include "./Game/Cell/Cell.h"
+#include "./Game/Cell/Object/Enter/Enter.h"
+#include "./Game/Cell/Object/Exit/Exit.h"
+#include "./Game/Cell/Object/Character/Enemy/Enemy.h"
+#include "./Game/Cell/Object/Character/Player/Player.h"
+#include "./Game/Cell/Object/Character/Enemy/Type1/Type1.h"
+#include "./Game/Cell/Object/Character/Enemy/Type2/Type2.h"
+#include "./Game/Cell/Object/Character/Enemy/Type3/Type3.h"
 #include <SFML/Graphics.hpp> //https://www.sfml-dev.org/tutorials/2.5/start-linux.php - про локальную установку SFML
+
+class A{
+    int value;
+public:
+    A(int v){
+        value = v;
+        std::cout << "Constructor A" << std::endl;
+    }
+    virtual int get_value(){
+        return value;
+    }
+};
+
+class B: public A{
+public:
+    B(int v):A(v){
+        std::cout << "Constructor B" << std::endl;
+    }
+};
+
+
+
 
 int main()
 {
-    Field b = Field(2,2);
-    Iterator* it = b.createIterator();
-    b.render_field();
-    for(it->Current();!it->IsDone();it->Next()){
-        std::cout << it->Current()->get_fill() << ' ';
-    }
-    std::cout << it->Current()->get_fill() << ' ';
-    /*sf::RenderWindow window(sf::VideoMode(800, 600), "SFML game");
+    enum Size{SMALL, MIDDLE, BIG, TEST};
+    Field a(BIG);
+    Cell* c = a.get_cell(1,1);
 
-    window.clear();
+    Player main_player = Player();
 
-    sf::RectangleShape a;
-    float height = 20;
-    float width = 20;
-    a.setSize({height,width});
-    a.setPosition({0,0});
-    a.setFillColor(sf::Color::Green);
-    window.draw(a);
+    c->set_object(&main_player);
+    a.render_field();
 
-    window.display();
+    /*B test(5);
+    int q = test.get_value();
+    std::cout << q;*/
 
+
+
+
+
+
+    /*A a(5);
+    std::cout << a.get_v();*/
+
+    /*
     while (window.isOpen())
     {
         sf::Event event;
@@ -34,10 +65,11 @@ int main()
             if (event.type == sf::Event::Closed)
                 window.close();
         }
-
+*//*
         window.clear();
         window.draw(a);
-        window.display();
+        window.draw(b);
+        window.display();*//*
     }*/
 
     return 0;

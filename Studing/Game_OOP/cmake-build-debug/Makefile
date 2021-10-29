@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/164/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/169/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/164/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/169/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/164/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/169/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -78,7 +78,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/164/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/169/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -129,77 +129,365 @@ Game_OOP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/build
 .PHONY : Game_OOP/fast
 
-Cell/Cell.o: Cell/Cell.cpp.o
-.PHONY : Cell/Cell.o
+Game/Cell/Cell.o: Game/Cell/Cell.cpp.o
+.PHONY : Game/Cell/Cell.o
 
 # target to build an object file
-Cell/Cell.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Cell/Cell.cpp.o
-.PHONY : Cell/Cell.cpp.o
+Game/Cell/Cell.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Cell.cpp.o
+.PHONY : Game/Cell/Cell.cpp.o
 
-Cell/Cell.i: Cell/Cell.cpp.i
-.PHONY : Cell/Cell.i
+Game/Cell/Cell.i: Game/Cell/Cell.cpp.i
+.PHONY : Game/Cell/Cell.i
 
 # target to preprocess a source file
-Cell/Cell.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Cell/Cell.cpp.i
-.PHONY : Cell/Cell.cpp.i
+Game/Cell/Cell.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Cell.cpp.i
+.PHONY : Game/Cell/Cell.cpp.i
 
-Cell/Cell.s: Cell/Cell.cpp.s
-.PHONY : Cell/Cell.s
+Game/Cell/Cell.s: Game/Cell/Cell.cpp.s
+.PHONY : Game/Cell/Cell.s
 
 # target to generate assembly for a file
-Cell/Cell.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Cell/Cell.cpp.s
-.PHONY : Cell/Cell.cpp.s
+Game/Cell/Cell.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Cell.cpp.s
+.PHONY : Game/Cell/Cell.cpp.s
 
-Field/Field.o: Field/Field.cpp.o
-.PHONY : Field/Field.o
+Game/Cell/Object/Character/Character.o: Game/Cell/Object/Character/Character.cpp.o
+.PHONY : Game/Cell/Object/Character/Character.o
 
 # target to build an object file
-Field/Field.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Field/Field.cpp.o
-.PHONY : Field/Field.cpp.o
+Game/Cell/Object/Character/Character.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Character.cpp.o
+.PHONY : Game/Cell/Object/Character/Character.cpp.o
 
-Field/Field.i: Field/Field.cpp.i
-.PHONY : Field/Field.i
+Game/Cell/Object/Character/Character.i: Game/Cell/Object/Character/Character.cpp.i
+.PHONY : Game/Cell/Object/Character/Character.i
 
 # target to preprocess a source file
-Field/Field.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Field/Field.cpp.i
-.PHONY : Field/Field.cpp.i
+Game/Cell/Object/Character/Character.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Character.cpp.i
+.PHONY : Game/Cell/Object/Character/Character.cpp.i
 
-Field/Field.s: Field/Field.cpp.s
-.PHONY : Field/Field.s
+Game/Cell/Object/Character/Character.s: Game/Cell/Object/Character/Character.cpp.s
+.PHONY : Game/Cell/Object/Character/Character.s
 
 # target to generate assembly for a file
-Field/Field.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Field/Field.cpp.s
-.PHONY : Field/Field.cpp.s
+Game/Cell/Object/Character/Character.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Character.cpp.s
+.PHONY : Game/Cell/Object/Character/Character.cpp.s
 
-Iterator/Iterator.o: Iterator/Iterator.cpp.o
-.PHONY : Iterator/Iterator.o
+Game/Cell/Object/Character/Enemy/Enemy.o: Game/Cell/Object/Character/Enemy/Enemy.cpp.o
+.PHONY : Game/Cell/Object/Character/Enemy/Enemy.o
 
 # target to build an object file
-Iterator/Iterator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Iterator/Iterator.cpp.o
-.PHONY : Iterator/Iterator.cpp.o
+Game/Cell/Object/Character/Enemy/Enemy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Enemy.cpp.o
+.PHONY : Game/Cell/Object/Character/Enemy/Enemy.cpp.o
 
-Iterator/Iterator.i: Iterator/Iterator.cpp.i
-.PHONY : Iterator/Iterator.i
+Game/Cell/Object/Character/Enemy/Enemy.i: Game/Cell/Object/Character/Enemy/Enemy.cpp.i
+.PHONY : Game/Cell/Object/Character/Enemy/Enemy.i
 
 # target to preprocess a source file
-Iterator/Iterator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Iterator/Iterator.cpp.i
-.PHONY : Iterator/Iterator.cpp.i
+Game/Cell/Object/Character/Enemy/Enemy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Enemy.cpp.i
+.PHONY : Game/Cell/Object/Character/Enemy/Enemy.cpp.i
 
-Iterator/Iterator.s: Iterator/Iterator.cpp.s
-.PHONY : Iterator/Iterator.s
+Game/Cell/Object/Character/Enemy/Enemy.s: Game/Cell/Object/Character/Enemy/Enemy.cpp.s
+.PHONY : Game/Cell/Object/Character/Enemy/Enemy.s
 
 # target to generate assembly for a file
-Iterator/Iterator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Iterator/Iterator.cpp.s
-.PHONY : Iterator/Iterator.cpp.s
+Game/Cell/Object/Character/Enemy/Enemy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Enemy.cpp.s
+.PHONY : Game/Cell/Object/Character/Enemy/Enemy.cpp.s
+
+Game/Cell/Object/Character/Enemy/Type1/Type1.o: Game/Cell/Object/Character/Enemy/Type1/Type1.cpp.o
+.PHONY : Game/Cell/Object/Character/Enemy/Type1/Type1.o
+
+# target to build an object file
+Game/Cell/Object/Character/Enemy/Type1/Type1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type1/Type1.cpp.o
+.PHONY : Game/Cell/Object/Character/Enemy/Type1/Type1.cpp.o
+
+Game/Cell/Object/Character/Enemy/Type1/Type1.i: Game/Cell/Object/Character/Enemy/Type1/Type1.cpp.i
+.PHONY : Game/Cell/Object/Character/Enemy/Type1/Type1.i
+
+# target to preprocess a source file
+Game/Cell/Object/Character/Enemy/Type1/Type1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type1/Type1.cpp.i
+.PHONY : Game/Cell/Object/Character/Enemy/Type1/Type1.cpp.i
+
+Game/Cell/Object/Character/Enemy/Type1/Type1.s: Game/Cell/Object/Character/Enemy/Type1/Type1.cpp.s
+.PHONY : Game/Cell/Object/Character/Enemy/Type1/Type1.s
+
+# target to generate assembly for a file
+Game/Cell/Object/Character/Enemy/Type1/Type1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type1/Type1.cpp.s
+.PHONY : Game/Cell/Object/Character/Enemy/Type1/Type1.cpp.s
+
+Game/Cell/Object/Character/Enemy/Type2/Type2.o: Game/Cell/Object/Character/Enemy/Type2/Type2.cpp.o
+.PHONY : Game/Cell/Object/Character/Enemy/Type2/Type2.o
+
+# target to build an object file
+Game/Cell/Object/Character/Enemy/Type2/Type2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type2/Type2.cpp.o
+.PHONY : Game/Cell/Object/Character/Enemy/Type2/Type2.cpp.o
+
+Game/Cell/Object/Character/Enemy/Type2/Type2.i: Game/Cell/Object/Character/Enemy/Type2/Type2.cpp.i
+.PHONY : Game/Cell/Object/Character/Enemy/Type2/Type2.i
+
+# target to preprocess a source file
+Game/Cell/Object/Character/Enemy/Type2/Type2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type2/Type2.cpp.i
+.PHONY : Game/Cell/Object/Character/Enemy/Type2/Type2.cpp.i
+
+Game/Cell/Object/Character/Enemy/Type2/Type2.s: Game/Cell/Object/Character/Enemy/Type2/Type2.cpp.s
+.PHONY : Game/Cell/Object/Character/Enemy/Type2/Type2.s
+
+# target to generate assembly for a file
+Game/Cell/Object/Character/Enemy/Type2/Type2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type2/Type2.cpp.s
+.PHONY : Game/Cell/Object/Character/Enemy/Type2/Type2.cpp.s
+
+Game/Cell/Object/Character/Enemy/Type3/Type3.o: Game/Cell/Object/Character/Enemy/Type3/Type3.cpp.o
+.PHONY : Game/Cell/Object/Character/Enemy/Type3/Type3.o
+
+# target to build an object file
+Game/Cell/Object/Character/Enemy/Type3/Type3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type3/Type3.cpp.o
+.PHONY : Game/Cell/Object/Character/Enemy/Type3/Type3.cpp.o
+
+Game/Cell/Object/Character/Enemy/Type3/Type3.i: Game/Cell/Object/Character/Enemy/Type3/Type3.cpp.i
+.PHONY : Game/Cell/Object/Character/Enemy/Type3/Type3.i
+
+# target to preprocess a source file
+Game/Cell/Object/Character/Enemy/Type3/Type3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type3/Type3.cpp.i
+.PHONY : Game/Cell/Object/Character/Enemy/Type3/Type3.cpp.i
+
+Game/Cell/Object/Character/Enemy/Type3/Type3.s: Game/Cell/Object/Character/Enemy/Type3/Type3.cpp.s
+.PHONY : Game/Cell/Object/Character/Enemy/Type3/Type3.s
+
+# target to generate assembly for a file
+Game/Cell/Object/Character/Enemy/Type3/Type3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type3/Type3.cpp.s
+.PHONY : Game/Cell/Object/Character/Enemy/Type3/Type3.cpp.s
+
+Game/Cell/Object/Character/Player/Player.o: Game/Cell/Object/Character/Player/Player.cpp.o
+.PHONY : Game/Cell/Object/Character/Player/Player.o
+
+# target to build an object file
+Game/Cell/Object/Character/Player/Player.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Player/Player.cpp.o
+.PHONY : Game/Cell/Object/Character/Player/Player.cpp.o
+
+Game/Cell/Object/Character/Player/Player.i: Game/Cell/Object/Character/Player/Player.cpp.i
+.PHONY : Game/Cell/Object/Character/Player/Player.i
+
+# target to preprocess a source file
+Game/Cell/Object/Character/Player/Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Player/Player.cpp.i
+.PHONY : Game/Cell/Object/Character/Player/Player.cpp.i
+
+Game/Cell/Object/Character/Player/Player.s: Game/Cell/Object/Character/Player/Player.cpp.s
+.PHONY : Game/Cell/Object/Character/Player/Player.s
+
+# target to generate assembly for a file
+Game/Cell/Object/Character/Player/Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Player/Player.cpp.s
+.PHONY : Game/Cell/Object/Character/Player/Player.cpp.s
+
+Game/Cell/Object/Empty/Empty.o: Game/Cell/Object/Empty/Empty.cpp.o
+.PHONY : Game/Cell/Object/Empty/Empty.o
+
+# target to build an object file
+Game/Cell/Object/Empty/Empty.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Object/Empty/Empty.cpp.o
+.PHONY : Game/Cell/Object/Empty/Empty.cpp.o
+
+Game/Cell/Object/Empty/Empty.i: Game/Cell/Object/Empty/Empty.cpp.i
+.PHONY : Game/Cell/Object/Empty/Empty.i
+
+# target to preprocess a source file
+Game/Cell/Object/Empty/Empty.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Object/Empty/Empty.cpp.i
+.PHONY : Game/Cell/Object/Empty/Empty.cpp.i
+
+Game/Cell/Object/Empty/Empty.s: Game/Cell/Object/Empty/Empty.cpp.s
+.PHONY : Game/Cell/Object/Empty/Empty.s
+
+# target to generate assembly for a file
+Game/Cell/Object/Empty/Empty.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Object/Empty/Empty.cpp.s
+.PHONY : Game/Cell/Object/Empty/Empty.cpp.s
+
+Game/Cell/Object/Enter/Enter.o: Game/Cell/Object/Enter/Enter.cpp.o
+.PHONY : Game/Cell/Object/Enter/Enter.o
+
+# target to build an object file
+Game/Cell/Object/Enter/Enter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Object/Enter/Enter.cpp.o
+.PHONY : Game/Cell/Object/Enter/Enter.cpp.o
+
+Game/Cell/Object/Enter/Enter.i: Game/Cell/Object/Enter/Enter.cpp.i
+.PHONY : Game/Cell/Object/Enter/Enter.i
+
+# target to preprocess a source file
+Game/Cell/Object/Enter/Enter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Object/Enter/Enter.cpp.i
+.PHONY : Game/Cell/Object/Enter/Enter.cpp.i
+
+Game/Cell/Object/Enter/Enter.s: Game/Cell/Object/Enter/Enter.cpp.s
+.PHONY : Game/Cell/Object/Enter/Enter.s
+
+# target to generate assembly for a file
+Game/Cell/Object/Enter/Enter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Object/Enter/Enter.cpp.s
+.PHONY : Game/Cell/Object/Enter/Enter.cpp.s
+
+Game/Cell/Object/Equipment/Equipment.o: Game/Cell/Object/Equipment/Equipment.cpp.o
+.PHONY : Game/Cell/Object/Equipment/Equipment.o
+
+# target to build an object file
+Game/Cell/Object/Equipment/Equipment.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Equipment.cpp.o
+.PHONY : Game/Cell/Object/Equipment/Equipment.cpp.o
+
+Game/Cell/Object/Equipment/Equipment.i: Game/Cell/Object/Equipment/Equipment.cpp.i
+.PHONY : Game/Cell/Object/Equipment/Equipment.i
+
+# target to preprocess a source file
+Game/Cell/Object/Equipment/Equipment.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Equipment.cpp.i
+.PHONY : Game/Cell/Object/Equipment/Equipment.cpp.i
+
+Game/Cell/Object/Equipment/Equipment.s: Game/Cell/Object/Equipment/Equipment.cpp.s
+.PHONY : Game/Cell/Object/Equipment/Equipment.s
+
+# target to generate assembly for a file
+Game/Cell/Object/Equipment/Equipment.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Equipment.cpp.s
+.PHONY : Game/Cell/Object/Equipment/Equipment.cpp.s
+
+Game/Cell/Object/Exit/Exit.o: Game/Cell/Object/Exit/Exit.cpp.o
+.PHONY : Game/Cell/Object/Exit/Exit.o
+
+# target to build an object file
+Game/Cell/Object/Exit/Exit.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Object/Exit/Exit.cpp.o
+.PHONY : Game/Cell/Object/Exit/Exit.cpp.o
+
+Game/Cell/Object/Exit/Exit.i: Game/Cell/Object/Exit/Exit.cpp.i
+.PHONY : Game/Cell/Object/Exit/Exit.i
+
+# target to preprocess a source file
+Game/Cell/Object/Exit/Exit.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Object/Exit/Exit.cpp.i
+.PHONY : Game/Cell/Object/Exit/Exit.cpp.i
+
+Game/Cell/Object/Exit/Exit.s: Game/Cell/Object/Exit/Exit.cpp.s
+.PHONY : Game/Cell/Object/Exit/Exit.s
+
+# target to generate assembly for a file
+Game/Cell/Object/Exit/Exit.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Object/Exit/Exit.cpp.s
+.PHONY : Game/Cell/Object/Exit/Exit.cpp.s
+
+Game/Cell/Object/Object.o: Game/Cell/Object/Object.cpp.o
+.PHONY : Game/Cell/Object/Object.o
+
+# target to build an object file
+Game/Cell/Object/Object.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Object/Object.cpp.o
+.PHONY : Game/Cell/Object/Object.cpp.o
+
+Game/Cell/Object/Object.i: Game/Cell/Object/Object.cpp.i
+.PHONY : Game/Cell/Object/Object.i
+
+# target to preprocess a source file
+Game/Cell/Object/Object.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Object/Object.cpp.i
+.PHONY : Game/Cell/Object/Object.cpp.i
+
+Game/Cell/Object/Object.s: Game/Cell/Object/Object.cpp.s
+.PHONY : Game/Cell/Object/Object.s
+
+# target to generate assembly for a file
+Game/Cell/Object/Object.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Cell/Object/Object.cpp.s
+.PHONY : Game/Cell/Object/Object.cpp.s
+
+Game/Field/Field.o: Game/Field/Field.cpp.o
+.PHONY : Game/Field/Field.o
+
+# target to build an object file
+Game/Field/Field.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Field/Field.cpp.o
+.PHONY : Game/Field/Field.cpp.o
+
+Game/Field/Field.i: Game/Field/Field.cpp.i
+.PHONY : Game/Field/Field.i
+
+# target to preprocess a source file
+Game/Field/Field.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Field/Field.cpp.i
+.PHONY : Game/Field/Field.cpp.i
+
+Game/Field/Field.s: Game/Field/Field.cpp.s
+.PHONY : Game/Field/Field.s
+
+# target to generate assembly for a file
+Game/Field/Field.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Field/Field.cpp.s
+.PHONY : Game/Field/Field.cpp.s
+
+Game/Game.o: Game/Game.cpp.o
+.PHONY : Game/Game.o
+
+# target to build an object file
+Game/Game.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Game.cpp.o
+.PHONY : Game/Game.cpp.o
+
+Game/Game.i: Game/Game.cpp.i
+.PHONY : Game/Game.i
+
+# target to preprocess a source file
+Game/Game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Game.cpp.i
+.PHONY : Game/Game.cpp.i
+
+Game/Game.s: Game/Game.cpp.s
+.PHONY : Game/Game.s
+
+# target to generate assembly for a file
+Game/Game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Game.cpp.s
+.PHONY : Game/Game.cpp.s
+
+Game/Iterator/Iterator.o: Game/Iterator/Iterator.cpp.o
+.PHONY : Game/Iterator/Iterator.o
+
+# target to build an object file
+Game/Iterator/Iterator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Iterator/Iterator.cpp.o
+.PHONY : Game/Iterator/Iterator.cpp.o
+
+Game/Iterator/Iterator.i: Game/Iterator/Iterator.cpp.i
+.PHONY : Game/Iterator/Iterator.i
+
+# target to preprocess a source file
+Game/Iterator/Iterator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Iterator/Iterator.cpp.i
+.PHONY : Game/Iterator/Iterator.cpp.i
+
+Game/Iterator/Iterator.s: Game/Iterator/Iterator.cpp.s
+.PHONY : Game/Iterator/Iterator.s
+
+# target to generate assembly for a file
+Game/Iterator/Iterator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game_OOP.dir/build.make CMakeFiles/Game_OOP.dir/Game/Iterator/Iterator.cpp.s
+.PHONY : Game/Iterator/Iterator.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -234,15 +522,51 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Game_OOP"
-	@echo "... Cell/Cell.o"
-	@echo "... Cell/Cell.i"
-	@echo "... Cell/Cell.s"
-	@echo "... Field/Field.o"
-	@echo "... Field/Field.i"
-	@echo "... Field/Field.s"
-	@echo "... Iterator/Iterator.o"
-	@echo "... Iterator/Iterator.i"
-	@echo "... Iterator/Iterator.s"
+	@echo "... Game/Cell/Cell.o"
+	@echo "... Game/Cell/Cell.i"
+	@echo "... Game/Cell/Cell.s"
+	@echo "... Game/Cell/Object/Character/Character.o"
+	@echo "... Game/Cell/Object/Character/Character.i"
+	@echo "... Game/Cell/Object/Character/Character.s"
+	@echo "... Game/Cell/Object/Character/Enemy/Enemy.o"
+	@echo "... Game/Cell/Object/Character/Enemy/Enemy.i"
+	@echo "... Game/Cell/Object/Character/Enemy/Enemy.s"
+	@echo "... Game/Cell/Object/Character/Enemy/Type1/Type1.o"
+	@echo "... Game/Cell/Object/Character/Enemy/Type1/Type1.i"
+	@echo "... Game/Cell/Object/Character/Enemy/Type1/Type1.s"
+	@echo "... Game/Cell/Object/Character/Enemy/Type2/Type2.o"
+	@echo "... Game/Cell/Object/Character/Enemy/Type2/Type2.i"
+	@echo "... Game/Cell/Object/Character/Enemy/Type2/Type2.s"
+	@echo "... Game/Cell/Object/Character/Enemy/Type3/Type3.o"
+	@echo "... Game/Cell/Object/Character/Enemy/Type3/Type3.i"
+	@echo "... Game/Cell/Object/Character/Enemy/Type3/Type3.s"
+	@echo "... Game/Cell/Object/Character/Player/Player.o"
+	@echo "... Game/Cell/Object/Character/Player/Player.i"
+	@echo "... Game/Cell/Object/Character/Player/Player.s"
+	@echo "... Game/Cell/Object/Empty/Empty.o"
+	@echo "... Game/Cell/Object/Empty/Empty.i"
+	@echo "... Game/Cell/Object/Empty/Empty.s"
+	@echo "... Game/Cell/Object/Enter/Enter.o"
+	@echo "... Game/Cell/Object/Enter/Enter.i"
+	@echo "... Game/Cell/Object/Enter/Enter.s"
+	@echo "... Game/Cell/Object/Equipment/Equipment.o"
+	@echo "... Game/Cell/Object/Equipment/Equipment.i"
+	@echo "... Game/Cell/Object/Equipment/Equipment.s"
+	@echo "... Game/Cell/Object/Exit/Exit.o"
+	@echo "... Game/Cell/Object/Exit/Exit.i"
+	@echo "... Game/Cell/Object/Exit/Exit.s"
+	@echo "... Game/Cell/Object/Object.o"
+	@echo "... Game/Cell/Object/Object.i"
+	@echo "... Game/Cell/Object/Object.s"
+	@echo "... Game/Field/Field.o"
+	@echo "... Game/Field/Field.i"
+	@echo "... Game/Field/Field.s"
+	@echo "... Game/Game.o"
+	@echo "... Game/Game.i"
+	@echo "... Game/Game.s"
+	@echo "... Game/Iterator/Iterator.o"
+	@echo "... Game/Iterator/Iterator.i"
+	@echo "... Game/Iterator/Iterator.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
