@@ -6,37 +6,33 @@
 
 #IncludeRegexTransform: 
 
-/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Cell/Cell.h
+/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Cell.cpp
+iostream
+-
+Cell.h
+/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Cell.h
+./Object/Empty/Empty.h
+/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Empty/Empty.h
+
+/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Cell.h
 Cell_interface.h
-/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Cell/Cell_interface.h
-
-/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Cell/Cell_interface.h
-
-/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Field/Field.cpp
-iostream
--
-Field.h
-/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Field/Field.h
+/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Cell_interface.h
 SFML/Graphics.hpp
 -
+./Object/Object.h
+/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Object.h
 
-/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Field/Field.h
-../Cell/Cell.h
-/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Cell/Cell.h
-../Iterator/Iterator.h
-/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Iterator/Iterator.h
+/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Cell_interface.h
+./Object/Object.h
+/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Object.h
 
-/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Iterator/Iterator.h
-../Cell/Cell.h
-/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Cell/Cell.h
+/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Empty/Empty.h
+../Object.h
+/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Object.h
 
-/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/main.cpp
-iostream
--
-./Iterator/Iterator.h
-/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Iterator/Iterator.h
-./Field/Field.h
-/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Field/Field.h
+/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Object.h
 SFML/Graphics.hpp
+-
+iostream
 -
 
