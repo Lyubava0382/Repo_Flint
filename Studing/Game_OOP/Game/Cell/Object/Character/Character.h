@@ -10,27 +10,27 @@
 //Абстрактный класс для игрока и врага
 class Character: public Object{
 protected:
-    enum Directions{LEFT,RIGHT,TOP,DOWN};
-    sf::Color color;
+    std::vector<IObserver*> observers;
     Conditions type;
-    int position[2];
     int Attack;
     int Health;
     int Protection;
+    int count_step;
 public:
-    sf::Color get_color() override;
-    void set_color(sf::Color color) override;
+    void addObserver(IObserver* o) override;
+    void removeObserver(IObserver* o) override;
+    void notify(Commands dir) override;
+    void move(Commands dir) override;
     Conditions get_type() override;
-    int* get_position() override;
-    void set_position(int x,int y) override;
-    virtual int get_attack();
-    virtual int get_protection();
-    virtual int get_health();
-    virtual void set_attack(int attack);
-    virtual void set_protection(int protection);
-    virtual void set_health(int health);
-    virtual void step(Directions direction, Conditions type);
+    int get_attack() override;
+    int get_protection() override;
+    int get_health() override;
+    void set_attack(int attack) override;
+    void set_protection(int protection) override;
+    void set_health(int health) override;
     virtual void foo() = 0;
+
+
 };
 
 

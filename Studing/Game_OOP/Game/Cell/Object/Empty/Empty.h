@@ -9,15 +9,22 @@
 #include "../Object.h"
 
 class Empty: public Object{
-    sf::Color color = sf::Color::Green;
-    Conditions type = EMPTY;
-    int position[2];
+    Conditions type;
+    void interact(Object *&entity) override{};
+    void take_equip(Object *equip) override{};
+    int get_attack() override{return 0;};
+    int get_protection() override{return 0;};
+    int get_health() override{return 0;};
+    void set_attack(int attack) override{};
+    void set_protection(int protection) override{};
+    void set_health(int health) override{};
+    void addObserver(IObserver* o) override{};
+    void removeObserver(IObserver* o) override{};
+    void notify(Commands dir) override{};
+    void move(Commands dir) override{};
 public:
-    sf::Color get_color() override;
-    void set_color(sf::Color color) override;
+    Empty();
     Conditions get_type() override;
-    int* get_position() override;
-    void set_position(int x,int y) override;
 };
 
 

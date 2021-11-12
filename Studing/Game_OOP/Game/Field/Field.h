@@ -1,19 +1,20 @@
 #ifndef OOP_FIELD_H
 #define OOP_FIELD_H
 
-#include "../Cell/Cell.h"
-#include "../Cell/Object/Character/Player/Player.h"
-#include "../Cell/Object/Enter/Enter.h"
+#include <iostream>
 #include "../Iterator/Iterator.h"
+#include "../Cell/Object/Character/Enemy/Enemy.h"
+#include <thread>
+#include <chrono>
+using namespace std;
 
-class Field:public sf::RenderWindow{
-    sf::RenderWindow field;
+class Field{
     Cell*** Cells;
-    Player* player;
     int height;
     int width;
 public:
-    Field(int size = -1);
+    enum Size{SMALL, MIDDLE, BIG, TEST};
+    explicit Field(Size size = SMALL);
     Field(const Field& other);
     Field& operator=(const Field& other);
     Field(Field&& other);
@@ -22,12 +23,14 @@ public:
 
     Iterator* createIterator();
 
-    void EnterOut(int* cell_enter, int* cell_exit);
-    void setSize(int size);
     Cell* get_cell(int x,int y);
+    Cell*** get_cells();
     int get_height();
-    void render_field();
-    void get_type(int x, int y);
+    int get_width();
+
+protected:
+    Iterator* it;
+    void movements_enemies(vector<Enemy *> enemyes);
 };
 
 #endif //OOP_FIELD_H

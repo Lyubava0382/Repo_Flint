@@ -4,22 +4,27 @@
 
 #include "Character.h"
 
-sf::Color Character::get_color(){
-    return this->color;
-};
-void Character::set_color(sf::Color color){
-    this->color = color;
-};
+void Character::addObserver(IObserver *o) {
+    observers.push_back(o);
+}
+void Character::removeObserver(IObserver *o) {
+    observers.erase(remove(observers.begin(),observers.end(),o),observers.end());
+}
+
+void Character::notify(Commands dir) {
+    for(auto o: observers){
+        o->update(dir,*this);
+    }
+}
+
+void Character::move(Commands dir) {
+    this->notify(dir);
+}
+
 Conditions Character::get_type(){
     return this->type;
 };
-int* Character::get_position(){
-    return this->position;
-};
-void Character::set_position(int x,int y){
-    this->position[0] = x;
-    this->position[1] = y;
-};
+
 
 int Character::get_attack(){
     return this->Attack;
@@ -39,38 +44,3 @@ void Character::set_protection(int protection){
 void Character::set_health(int health){
     this->Health = health;
 };
-
-void Character::step(Directions direction,Conditions type){
-    int x,y;
-    switch (direction) {
-        case (LEFT):
-            std::cout << "left" << std::endl;
-            break;
-        case(RIGHT):
-            std::cout << "right" << std::endl;
-            break;
-        case(TOP):
-            std::cout << "top" << std::endl;
-            break;
-        case(DOWN):
-            std::cout << "down" << std::endl;
-            break;
-    }
-
-    switch (type) {
-        case(EMPTY):
-            break;
-        case(PATHLESS):
-            break;
-        case(PLAYER):
-            break;
-        case(ENEMY):
-            break;
-        case(EQUIPMENT):
-            break;
-        case(ENTER):
-            break;
-        case(EXIT):
-            break;
-    }
-}

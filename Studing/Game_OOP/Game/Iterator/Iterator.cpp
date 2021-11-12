@@ -16,6 +16,7 @@ void Iterator::First() {
 void Iterator::Next() {
     if(cur_width == max_width && cur_height==max_height){
         this->cur_item = (Field[cur_height][cur_width]);
+        this->cur_height++;
     }
     else if(cur_width == max_width){
         this->cur_width = 0;
@@ -31,5 +32,5 @@ Cell* Iterator::Current() {
 }
 
 bool Iterator::IsDone() {
-    return (cur_item == end_item);
+    return (cur_height == max_height+1);
 }

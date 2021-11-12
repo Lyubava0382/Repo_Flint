@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title>SFML - Simple and Fast Multimedia Library</title>
-        <meta http-equiv="Content-Type" content="text/html;"/>
+        <meta http-equiv="Content-Type_equip" content="text/html;"/>
         <meta charset="utf-8"/>
         <!--<link rel='stylesheet' type='text/css' href="https://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic"/>-->
         <link rel="stylesheet" type="text/css" href="doxygen.css" title="default" media="screen,print" />
@@ -146,10 +146,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a37ea3500afac234814a43ce809ef264e"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the local origin of the object  <a href="#a37ea3500afac234814a43ce809ef264e">More...</a><br /></td></tr>
 <tr class="separator:a37ea3500afac234814a43ce809ef264e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86b461d6a941ad390c2ad8b6a4a20391"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsf_1_1Transformable.html#a86b461d6a941ad390c2ad8b6a4a20391">move</a> (float offsetX, float offsetY)</td></tr>
-<tr class="memdesc:a86b461d6a941ad390c2ad8b6a4a20391"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move the object by a given offset.  <a href="#a86b461d6a941ad390c2ad8b6a4a20391">More...</a><br /></td></tr>
+<tr class="memdesc:a86b461d6a941ad390c2ad8b6a4a20391"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mover the object by a given offset.  <a href="#a86b461d6a941ad390c2ad8b6a4a20391">More...</a><br /></td></tr>
 <tr class="separator:a86b461d6a941ad390c2ad8b6a4a20391"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9ca691522f6ddc1a40406849b87c469"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsf_1_1Transformable.html#ab9ca691522f6ddc1a40406849b87c469">move</a> (const <a class="el" href="classsf_1_1Vector2.html">Vector2f</a> &amp;offset)</td></tr>
-<tr class="memdesc:ab9ca691522f6ddc1a40406849b87c469"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move the object by a given offset.  <a href="#ab9ca691522f6ddc1a40406849b87c469">More...</a><br /></td></tr>
+<tr class="memdesc:ab9ca691522f6ddc1a40406849b87c469"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mover the object by a given offset.  <a href="#ab9ca691522f6ddc1a40406849b87c469">More...</a><br /></td></tr>
 <tr class="separator:ab9ca691522f6ddc1a40406849b87c469"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8a5ffddc0d93f238fee3bf8efe1ebda"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsf_1_1Transformable.html#af8a5ffddc0d93f238fee3bf8efe1ebda">rotate</a> (float angle)</td></tr>
 <tr class="memdesc:af8a5ffddc0d93f238fee3bf8efe1ebda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rotate the object.  <a href="#af8a5ffddc0d93f238fee3bf8efe1ebda">More...</a><br /></td></tr>
@@ -732,7 +732,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Move the object by a given offset. </p>
+<p>Mover the object by a given offset. </p>
 <p>This function adds to the current position of the object, unlike setPosition which overwrites it. Thus, it is equivalent to the following code: </p><div class="fragment"><div class="line"><a class="code" href="classsf_1_1Vector2.html">sf::Vector2f</a> pos = <span class="keywordtype">object</span>.getPosition();</div><div class="line"><span class="keywordtype">object</span>.setPosition(pos.<a class="code" href="classsf_1_1Vector2.html#a1e6ad77fa155f3753bfb92699bd28141">x</a> + offsetX, pos.<a class="code" href="classsf_1_1Vector2.html#a420f2481b015f4eb929c75f2af564299">y</a> + offsetY);</div></div><!-- fragment --><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">offsetX</td><td>X offset </td></tr>
@@ -768,7 +768,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Move the object by a given offset. </p>
+<p>Mover the object by a given offset. </p>
 <p>This function adds to the current position of the object, unlike setPosition which overwrites it. Thus, it is equivalent to the following code: </p><div class="fragment"><div class="line"><span class="keywordtype">object</span>.setPosition(<span class="keywordtype">object</span>.<a class="code" href="classsf_1_1Transformable.html#a73f9739bc6e74db2cea154bc8e94ec46">getPosition</a>() + offset);</div></div><!-- fragment --><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">offset</td><td>Offset</td></tr>
@@ -1155,7 +1155,7 @@ Protected Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="classsf_1_1Transformable.html#a86b461d6a941ad390c2ad8b6a4a20391" title="Move the object by a given offset. ">move</a>, <a class="el" href="classsf_1_1Transformable.html#a73f9739bc6e74db2cea154bc8e94ec46" title="get the position of the object ">getPosition</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classsf_1_1Transformable.html#a86b461d6a941ad390c2ad8b6a4a20391" title="Mover the object by a given offset. ">move</a>, <a class="el" href="classsf_1_1Transformable.html#a73f9739bc6e74db2cea154bc8e94ec46" title="get the position of the object ">getPosition</a> </dd></dl>
 
 </div>
 </div>
@@ -1191,7 +1191,7 @@ Protected Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="classsf_1_1Transformable.html#a86b461d6a941ad390c2ad8b6a4a20391" title="Move the object by a given offset. ">move</a>, <a class="el" href="classsf_1_1Transformable.html#a73f9739bc6e74db2cea154bc8e94ec46" title="get the position of the object ">getPosition</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classsf_1_1Transformable.html#a86b461d6a941ad390c2ad8b6a4a20391" title="Mover the object by a given offset. ">move</a>, <a class="el" href="classsf_1_1Transformable.html#a73f9739bc6e74db2cea154bc8e94ec46" title="get the position of the object ">getPosition</a> </dd></dl>
 
 </div>
 </div>
