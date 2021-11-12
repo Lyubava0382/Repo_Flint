@@ -196,44 +196,44 @@ CMakeFiles/Game_OOP.dir/Game/Cell/Object/Object.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game_OOP.dir/Game/Cell/Object/Object.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Object.cpp -o CMakeFiles/Game_OOP.dir/Game/Cell/Object/Object.cpp.s
 
-CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type1/Type1.cpp.o: CMakeFiles/Game_OOP.dir/flags.make
-CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type1/Type1.cpp.o: ../Game/Cell/Object/Character/Enemy/Type1/Type1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type1/Type1.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type1/Type1.cpp.o -c /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Character/Enemy/Type1/Type1.cpp
+CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Simple_enemy/Simple_enemy.cpp.o: CMakeFiles/Game_OOP.dir/flags.make
+CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Simple_enemy/Simple_enemy.cpp.o: ../Game/Cell/Object/Character/Enemy/Simple_enemy/Simple_enemy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Simple_enemy/Simple_enemy.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Simple_enemy/Simple_enemy.cpp.o -c /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Character/Enemy/Simple_enemy/Simple_enemy.cpp
 
-CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type1/Type1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type1/Type1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Character/Enemy/Type1/Type1.cpp > CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type1/Type1.cpp.i
+CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Simple_enemy/Simple_enemy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Simple_enemy/Simple_enemy.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Character/Enemy/Simple_enemy/Simple_enemy.cpp > CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Simple_enemy/Simple_enemy.cpp.i
 
-CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type1/Type1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type1/Type1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Character/Enemy/Type1/Type1.cpp -o CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type1/Type1.cpp.s
+CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Simple_enemy/Simple_enemy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Simple_enemy/Simple_enemy.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Character/Enemy/Simple_enemy/Simple_enemy.cpp -o CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Simple_enemy/Simple_enemy.cpp.s
 
-CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type2/Type2.cpp.o: CMakeFiles/Game_OOP.dir/flags.make
-CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type2/Type2.cpp.o: ../Game/Cell/Object/Character/Enemy/Type2/Type2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type2/Type2.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type2/Type2.cpp.o -c /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Character/Enemy/Type2/Type2.cpp
+CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Increase_enemy/Increase_enemy.cpp.o: CMakeFiles/Game_OOP.dir/flags.make
+CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Increase_enemy/Increase_enemy.cpp.o: ../Game/Cell/Object/Character/Enemy/Increase_enemy/Increase_enemy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Increase_enemy/Increase_enemy.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Increase_enemy/Increase_enemy.cpp.o -c /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Character/Enemy/Increase_enemy/Increase_enemy.cpp
 
-CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type2/Type2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type2/Type2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Character/Enemy/Type2/Type2.cpp > CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type2/Type2.cpp.i
+CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Increase_enemy/Increase_enemy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Increase_enemy/Increase_enemy.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Character/Enemy/Increase_enemy/Increase_enemy.cpp > CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Increase_enemy/Increase_enemy.cpp.i
 
-CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type2/Type2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type2/Type2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Character/Enemy/Type2/Type2.cpp -o CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type2/Type2.cpp.s
+CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Increase_enemy/Increase_enemy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Increase_enemy/Increase_enemy.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Character/Enemy/Increase_enemy/Increase_enemy.cpp -o CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Increase_enemy/Increase_enemy.cpp.s
 
-CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type3/Type3.cpp.o: CMakeFiles/Game_OOP.dir/flags.make
-CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type3/Type3.cpp.o: ../Game/Cell/Object/Character/Enemy/Type3/Type3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type3/Type3.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type3/Type3.cpp.o -c /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Character/Enemy/Type3/Type3.cpp
+CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Reproduce_enemy/Reproduce_enemy.cpp.o: CMakeFiles/Game_OOP.dir/flags.make
+CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Reproduce_enemy/Reproduce_enemy.cpp.o: ../Game/Cell/Object/Character/Enemy/Reproduce_enemy/Reproduce_enemy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Reproduce_enemy/Reproduce_enemy.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Reproduce_enemy/Reproduce_enemy.cpp.o -c /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Character/Enemy/Reproduce_enemy/Reproduce_enemy.cpp
 
-CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type3/Type3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type3/Type3.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Character/Enemy/Type3/Type3.cpp > CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type3/Type3.cpp.i
+CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Reproduce_enemy/Reproduce_enemy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Reproduce_enemy/Reproduce_enemy.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Character/Enemy/Reproduce_enemy/Reproduce_enemy.cpp > CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Reproduce_enemy/Reproduce_enemy.cpp.i
 
-CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type3/Type3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type3/Type3.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Character/Enemy/Type3/Type3.cpp -o CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type3/Type3.cpp.s
+CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Reproduce_enemy/Reproduce_enemy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Reproduce_enemy/Reproduce_enemy.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Character/Enemy/Reproduce_enemy/Reproduce_enemy.cpp -o CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Reproduce_enemy/Reproduce_enemy.cpp.s
 
 CMakeFiles/Game_OOP.dir/Game/Cell/Object/Empty/Empty.cpp.o: CMakeFiles/Game_OOP.dir/flags.make
 CMakeFiles/Game_OOP.dir/Game/Cell/Object/Empty/Empty.cpp.o: ../Game/Cell/Object/Empty/Empty.cpp
@@ -274,6 +274,136 @@ CMakeFiles/Game_OOP.dir/Game/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game_OOP.dir/Game/Game.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Game.cpp -o CMakeFiles/Game_OOP.dir/Game/Game.cpp.s
 
+CMakeFiles/Game_OOP.dir/Game/Cell/Object/Pathless/Pathless.cpp.o: CMakeFiles/Game_OOP.dir/flags.make
+CMakeFiles/Game_OOP.dir/Game/Cell/Object/Pathless/Pathless.cpp.o: ../Game/Cell/Object/Pathless/Pathless.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Game_OOP.dir/Game/Cell/Object/Pathless/Pathless.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game_OOP.dir/Game/Cell/Object/Pathless/Pathless.cpp.o -c /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Pathless/Pathless.cpp
+
+CMakeFiles/Game_OOP.dir/Game/Cell/Object/Pathless/Pathless.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game_OOP.dir/Game/Cell/Object/Pathless/Pathless.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Pathless/Pathless.cpp > CMakeFiles/Game_OOP.dir/Game/Cell/Object/Pathless/Pathless.cpp.i
+
+CMakeFiles/Game_OOP.dir/Game/Cell/Object/Pathless/Pathless.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game_OOP.dir/Game/Cell/Object/Pathless/Pathless.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Pathless/Pathless.cpp -o CMakeFiles/Game_OOP.dir/Game/Cell/Object/Pathless/Pathless.cpp.s
+
+CMakeFiles/Game_OOP.dir/Game/Field/Field_view/Field_view.cpp.o: CMakeFiles/Game_OOP.dir/flags.make
+CMakeFiles/Game_OOP.dir/Game/Field/Field_view/Field_view.cpp.o: ../Game/Field/Field_view/Field_view.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Game_OOP.dir/Game/Field/Field_view/Field_view.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game_OOP.dir/Game/Field/Field_view/Field_view.cpp.o -c /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Field/Field_view/Field_view.cpp
+
+CMakeFiles/Game_OOP.dir/Game/Field/Field_view/Field_view.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game_OOP.dir/Game/Field/Field_view/Field_view.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Field/Field_view/Field_view.cpp > CMakeFiles/Game_OOP.dir/Game/Field/Field_view/Field_view.cpp.i
+
+CMakeFiles/Game_OOP.dir/Game/Field/Field_view/Field_view.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game_OOP.dir/Game/Field/Field_view/Field_view.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Field/Field_view/Field_view.cpp -o CMakeFiles/Game_OOP.dir/Game/Field/Field_view/Field_view.cpp.s
+
+CMakeFiles/Game_OOP.dir/Game/Cell/Object/Object_view.cpp.o: CMakeFiles/Game_OOP.dir/flags.make
+CMakeFiles/Game_OOP.dir/Game/Cell/Object/Object_view.cpp.o: ../Game/Cell/Object/Object_view.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Game_OOP.dir/Game/Cell/Object/Object_view.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game_OOP.dir/Game/Cell/Object/Object_view.cpp.o -c /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Object_view.cpp
+
+CMakeFiles/Game_OOP.dir/Game/Cell/Object/Object_view.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game_OOP.dir/Game/Cell/Object/Object_view.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Object_view.cpp > CMakeFiles/Game_OOP.dir/Game/Cell/Object/Object_view.cpp.i
+
+CMakeFiles/Game_OOP.dir/Game/Cell/Object/Object_view.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game_OOP.dir/Game/Cell/Object/Object_view.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Object_view.cpp -o CMakeFiles/Game_OOP.dir/Game/Cell/Object/Object_view.cpp.s
+
+CMakeFiles/Game_OOP.dir/Game/Move/Mover.cpp.o: CMakeFiles/Game_OOP.dir/flags.make
+CMakeFiles/Game_OOP.dir/Game/Move/Mover.cpp.o: ../Game/Move/Mover.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Game_OOP.dir/Game/Move/Mover.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game_OOP.dir/Game/Move/Mover.cpp.o -c /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Move/Mover.cpp
+
+CMakeFiles/Game_OOP.dir/Game/Move/Mover.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game_OOP.dir/Game/Move/Mover.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Move/Mover.cpp > CMakeFiles/Game_OOP.dir/Game/Move/Mover.cpp.i
+
+CMakeFiles/Game_OOP.dir/Game/Move/Mover.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game_OOP.dir/Game/Move/Mover.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Move/Mover.cpp -o CMakeFiles/Game_OOP.dir/Game/Move/Mover.cpp.s
+
+CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Armor/Armor.cpp.o: CMakeFiles/Game_OOP.dir/flags.make
+CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Armor/Armor.cpp.o: ../Game/Cell/Object/Equipment/Armor/Armor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Armor/Armor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Armor/Armor.cpp.o -c /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Equipment/Armor/Armor.cpp
+
+CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Armor/Armor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Armor/Armor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Equipment/Armor/Armor.cpp > CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Armor/Armor.cpp.i
+
+CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Armor/Armor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Armor/Armor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Equipment/Armor/Armor.cpp -o CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Armor/Armor.cpp.s
+
+CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Health/Health.cpp.o: CMakeFiles/Game_OOP.dir/flags.make
+CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Health/Health.cpp.o: ../Game/Cell/Object/Equipment/Health/Health.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Health/Health.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Health/Health.cpp.o -c /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Equipment/Health/Health.cpp
+
+CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Health/Health.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Health/Health.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Equipment/Health/Health.cpp > CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Health/Health.cpp.i
+
+CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Health/Health.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Health/Health.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Equipment/Health/Health.cpp -o CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Health/Health.cpp.s
+
+CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Weapon/Weapon.cpp.o: CMakeFiles/Game_OOP.dir/flags.make
+CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Weapon/Weapon.cpp.o: ../Game/Cell/Object/Equipment/Weapon/Weapon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Weapon/Weapon.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Weapon/Weapon.cpp.o -c /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Equipment/Weapon/Weapon.cpp
+
+CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Weapon/Weapon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Weapon/Weapon.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Equipment/Weapon/Weapon.cpp > CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Weapon/Weapon.cpp.i
+
+CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Weapon/Weapon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Weapon/Weapon.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Equipment/Weapon/Weapon.cpp -o CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Weapon/Weapon.cpp.s
+
+CMakeFiles/Game_OOP.dir/Game/Observer/IObserver.cpp.o: CMakeFiles/Game_OOP.dir/flags.make
+CMakeFiles/Game_OOP.dir/Game/Observer/IObserver.cpp.o: ../Game/Observer/IObserver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Game_OOP.dir/Game/Observer/IObserver.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game_OOP.dir/Game/Observer/IObserver.cpp.o -c /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Observer/IObserver.cpp
+
+CMakeFiles/Game_OOP.dir/Game/Observer/IObserver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game_OOP.dir/Game/Observer/IObserver.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Observer/IObserver.cpp > CMakeFiles/Game_OOP.dir/Game/Observer/IObserver.cpp.i
+
+CMakeFiles/Game_OOP.dir/Game/Observer/IObserver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game_OOP.dir/Game/Observer/IObserver.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Observer/IObserver.cpp -o CMakeFiles/Game_OOP.dir/Game/Observer/IObserver.cpp.s
+
+CMakeFiles/Game_OOP.dir/Game/Command/Command.cpp.o: CMakeFiles/Game_OOP.dir/flags.make
+CMakeFiles/Game_OOP.dir/Game/Command/Command.cpp.o: ../Game/Command/Command.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Game_OOP.dir/Game/Command/Command.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game_OOP.dir/Game/Command/Command.cpp.o -c /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Command/Command.cpp
+
+CMakeFiles/Game_OOP.dir/Game/Command/Command.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game_OOP.dir/Game/Command/Command.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Command/Command.cpp > CMakeFiles/Game_OOP.dir/Game/Command/Command.cpp.i
+
+CMakeFiles/Game_OOP.dir/Game/Command/Command.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game_OOP.dir/Game/Command/Command.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Command/Command.cpp -o CMakeFiles/Game_OOP.dir/Game/Command/Command.cpp.s
+
+CMakeFiles/Game_OOP.dir/Game/Logger/Logger.cpp.o: CMakeFiles/Game_OOP.dir/flags.make
+CMakeFiles/Game_OOP.dir/Game/Logger/Logger.cpp.o: ../Game/Logger/Logger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Game_OOP.dir/Game/Logger/Logger.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game_OOP.dir/Game/Logger/Logger.cpp.o -c /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Logger/Logger.cpp
+
+CMakeFiles/Game_OOP.dir/Game/Logger/Logger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game_OOP.dir/Game/Logger/Logger.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Logger/Logger.cpp > CMakeFiles/Game_OOP.dir/Game/Logger/Logger.cpp.i
+
+CMakeFiles/Game_OOP.dir/Game/Logger/Logger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game_OOP.dir/Game/Logger/Logger.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Logger/Logger.cpp -o CMakeFiles/Game_OOP.dir/Game/Logger/Logger.cpp.s
+
 # Object files for target Game_OOP
 Game_OOP_OBJECTS = \
 "CMakeFiles/Game_OOP.dir/main.cpp.o" \
@@ -286,12 +416,22 @@ Game_OOP_OBJECTS = \
 "CMakeFiles/Game_OOP.dir/Game/Cell/Object/Enter/Enter.cpp.o" \
 "CMakeFiles/Game_OOP.dir/Game/Cell/Object/Exit/Exit.cpp.o" \
 "CMakeFiles/Game_OOP.dir/Game/Cell/Object/Object.cpp.o" \
-"CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type1/Type1.cpp.o" \
-"CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type2/Type2.cpp.o" \
-"CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type3/Type3.cpp.o" \
+"CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Simple_enemy/Simple_enemy.cpp.o" \
+"CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Increase_enemy/Increase_enemy.cpp.o" \
+"CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Reproduce_enemy/Reproduce_enemy.cpp.o" \
 "CMakeFiles/Game_OOP.dir/Game/Cell/Object/Empty/Empty.cpp.o" \
 "CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Character.cpp.o" \
-"CMakeFiles/Game_OOP.dir/Game/Game.cpp.o"
+"CMakeFiles/Game_OOP.dir/Game/Game.cpp.o" \
+"CMakeFiles/Game_OOP.dir/Game/Cell/Object/Pathless/Pathless.cpp.o" \
+"CMakeFiles/Game_OOP.dir/Game/Field/Field_view/Field_view.cpp.o" \
+"CMakeFiles/Game_OOP.dir/Game/Cell/Object/Object_view.cpp.o" \
+"CMakeFiles/Game_OOP.dir/Game/Move/Mover.cpp.o" \
+"CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Armor/Armor.cpp.o" \
+"CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Health/Health.cpp.o" \
+"CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Weapon/Weapon.cpp.o" \
+"CMakeFiles/Game_OOP.dir/Game/Observer/IObserver.cpp.o" \
+"CMakeFiles/Game_OOP.dir/Game/Command/Command.cpp.o" \
+"CMakeFiles/Game_OOP.dir/Game/Logger/Logger.cpp.o"
 
 # External object files for target Game_OOP
 Game_OOP_EXTERNAL_OBJECTS =
@@ -306,19 +446,29 @@ Game_OOP: CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Player/Player.cpp.o
 Game_OOP: CMakeFiles/Game_OOP.dir/Game/Cell/Object/Enter/Enter.cpp.o
 Game_OOP: CMakeFiles/Game_OOP.dir/Game/Cell/Object/Exit/Exit.cpp.o
 Game_OOP: CMakeFiles/Game_OOP.dir/Game/Cell/Object/Object.cpp.o
-Game_OOP: CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type1/Type1.cpp.o
-Game_OOP: CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type2/Type2.cpp.o
-Game_OOP: CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Type3/Type3.cpp.o
+Game_OOP: CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Simple_enemy/Simple_enemy.cpp.o
+Game_OOP: CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Increase_enemy/Increase_enemy.cpp.o
+Game_OOP: CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Enemy/Reproduce_enemy/Reproduce_enemy.cpp.o
 Game_OOP: CMakeFiles/Game_OOP.dir/Game/Cell/Object/Empty/Empty.cpp.o
 Game_OOP: CMakeFiles/Game_OOP.dir/Game/Cell/Object/Character/Character.cpp.o
 Game_OOP: CMakeFiles/Game_OOP.dir/Game/Game.cpp.o
+Game_OOP: CMakeFiles/Game_OOP.dir/Game/Cell/Object/Pathless/Pathless.cpp.o
+Game_OOP: CMakeFiles/Game_OOP.dir/Game/Field/Field_view/Field_view.cpp.o
+Game_OOP: CMakeFiles/Game_OOP.dir/Game/Cell/Object/Object_view.cpp.o
+Game_OOP: CMakeFiles/Game_OOP.dir/Game/Move/Mover.cpp.o
+Game_OOP: CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Armor/Armor.cpp.o
+Game_OOP: CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Health/Health.cpp.o
+Game_OOP: CMakeFiles/Game_OOP.dir/Game/Cell/Object/Equipment/Weapon/Weapon.cpp.o
+Game_OOP: CMakeFiles/Game_OOP.dir/Game/Observer/IObserver.cpp.o
+Game_OOP: CMakeFiles/Game_OOP.dir/Game/Command/Command.cpp.o
+Game_OOP: CMakeFiles/Game_OOP.dir/Game/Logger/Logger.cpp.o
 Game_OOP: CMakeFiles/Game_OOP.dir/build.make
 Game_OOP: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1
 Game_OOP: /usr/lib/x86_64-linux-gnu/libsfml-audio.so.2.5.1
 Game_OOP: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1
 Game_OOP: /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1
 Game_OOP: CMakeFiles/Game_OOP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable Game_OOP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable Game_OOP"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Game_OOP.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -6,25 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Cell.cpp
-iostream
--
-Cell.h
 /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Cell.h
+./Object/Object.h
+/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Object.h
 ./Object/Empty/Empty.h
 /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Empty/Empty.h
 
-/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Cell.h
-Cell_interface.h
-/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Cell_interface.h
-SFML/Graphics.hpp
--
-./Object/Object.h
+/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Character/Character.h
+../Object.h
 /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Object.h
 
-/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Cell_interface.h
-./Object/Object.h
-/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Object.h
+/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Character/Enemy/Enemy.h
+../Character.h
+/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Character/Character.h
 
 /home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Empty/Empty.h
 ../Object.h
@@ -35,4 +29,42 @@ SFML/Graphics.hpp
 -
 iostream
 -
+../../Observer/IObserver.h
+/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Observer/IObserver.h
+../../Conditions.h
+/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Conditions.h
+
+/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Commands.h
+
+/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Conditions.h
+
+/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Field/Field.h
+iostream
+-
+../Iterator/Iterator.h
+/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Iterator/Iterator.h
+../Cell/Object/Character/Enemy/Enemy.h
+/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Object/Character/Enemy/Enemy.h
+thread
+-
+chrono
+-
+
+/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Iterator/Iterator.h
+../Cell/Cell.h
+/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Cell/Cell.h
+
+/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Move/Mover.cpp
+Mover.h
+/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Move/Mover.h
+
+/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Move/Mover.h
+../Field/Field.h
+/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Field/Field.h
+../Commands.h
+/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Commands.h
+
+/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Observer/IObserver.h
+../Commands.h
+/home/danil/Documents/Studing/OOP/Repo_Flint/Studing/Game_OOP/Game/Commands.h
 

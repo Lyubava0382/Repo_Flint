@@ -3,17 +3,25 @@
 
 
 #include "../Object.h"
+#include "../Character/Player/Player.h"
 
 class Enter: public Object{
-    sf::Color color = sf::Color::White;
-    Conditions type = ENTER;
-    int position[2];
+    Conditions type;
+    void interact(Object *&entity) override {};
+    virtual void take_equip(Object *equip) override{};
+    virtual int get_attack() override {return 0;};
+    virtual int get_protection() override {return 0;};
+    virtual int get_health() override {return 0;};
+    virtual void set_attack(int attack) override{};
+    virtual void set_protection(int protection) override{};
+    virtual void set_health(int health) override{};
+    void addObserver(IObserver* o) override{};
+    void removeObserver(IObserver* o) override{};
+    void notify(Commands dir) override{};
+    void move(Commands dir) override{};
 public:
-    sf::Color get_color() override;
-    void set_color(sf::Color color) override;
+    Enter();
     Conditions get_type() override;
-    int* get_position() override;
-    void set_position(int x,int y) override;
 };
 
 

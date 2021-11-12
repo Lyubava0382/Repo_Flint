@@ -1,0 +1,10 @@
+//
+// Created by danil on 08.11.2021.
+//
+
+#ifndef MAIN_CPP_COMMANDS_H
+#define MAIN_CPP_COMMANDS_H
+
+enum Commands{LEFT_STEP,RIGHT_STEP,TOP_STEP,DOWN_STEP,ANY_STEP,EXIT_GAME,REP,KILL_ENEMY};
+
+#endif //MAIN_CPP_COMMANDS_H

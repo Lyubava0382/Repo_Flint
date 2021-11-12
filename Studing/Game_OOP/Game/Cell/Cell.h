@@ -1,26 +1,23 @@
 #ifndef OOP_CELL_H
 #define OOP_CELL_H
 
-#include "Cell_interface.h"
-#include <SFML/Graphics.hpp>
 #include "./Object/Object.h"
+#include "./Object/Empty/Empty.h"
 
 
-class Cell: public Cell_interface, public sf::RectangleShape{
+class Cell{
     Object* Entity;
-    int coord[2];
-    Conditions type;
+    std::pair<int,int> coord;
 public:
-    Cell(int row = 0, int col = 0,const sf::Color fill = sf::Color::Green,Conditions condition = EMPTY);
+    Cell(int row = 0, int col = 0);
     Cell(const Cell& other);
     Cell& operator=(const Cell& other);
     Cell(Cell&& other);
     Cell& operator=(Cell&& other);
     ~Cell();
-
-    int* get_coord() override;
-    Object* get_object() override;
-    void set_object(Object* Entity) override;
+    std::pair<int,int> get_coord();
+    Object*& get_object();
+    void set_object(Object* Entity);
 };
 
 #endif //OOP_CELL_H

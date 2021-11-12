@@ -3,63 +3,47 @@
 #include "./Object/Empty/Empty.h"
 using namespace std;
 
-Cell::Cell(int row, int col,const sf::Color fill,Conditions condition){
-    this->setSize({20,20});
-    this->setPosition({(float)row*20,(float)col*20});
-    this->setFillColor(fill);
-    this->coord[0] = row;
-    this->coord[1] = col;
-    this->type = condition;
-    if(condition == EMPTY){
-        *Entity = Empty();
-    }
+Cell::Cell(int row, int col) {
+    this->coord.first = row;
+    this->coord.second = col;
+    this->Entity = new Empty();
 }
-Cell::Cell(const Cell& other):type(other.type){
-    this->setSize(other.getSize());
-    this->setFillColor(other.getFillColor());
-    this->type = other.type;
+Cell::Cell(const Cell& other){
     this->Entity = other.Entity;
 } //Обеспечат копирование
 Cell& Cell::operator=(const Cell& other){
     if(this != &other){
-        this->setSize(other.getSize());
-        this->setFillColor(other.getFillColor());
-        this->type = other.type;
         this->Entity = other.Entity;
     }
     return *this;
 }                                  //ячеек
 Cell::Cell(Cell&& other){
     swap(*this,other);
-    swap(this->coord[0],other.coord[0]);
-    swap(this->coord[1],other.coord[1]);
-    swap(this->type,other.type);
+    swap(this->Entity,other.Entity);
+    swap(this->coord.first,other.coord.first);
+    swap(this->coord.second,other.coord.second);
 }
 Cell& Cell::operator=(Cell&& other){
     if(this != &other){
         swap(*this,other);
         swap(this->Entity,other.Entity);
-        swap(this->coord[0],other.coord[0]);
-        swap(this->coord[1],other.coord[1]);
-        swap(this->type,other.type);
+        swap(this->coord.first,other.coord.first);
+        swap(this->coord.second,other.coord.second);
     }
     return *this;
 }
 
 Cell::~Cell(){
-
+    delete Entity;
 };
 
-int* Cell::get_coord(){
+std::pair<int,int> Cell::get_coord(){
     return this->coord;
 }
 
-Object* Cell::get_object(){
+Object *& Cell::get_object(){
     return this->Entity;
 }
 void Cell::set_object(Object* Entity){
     this->Entity = Entity;
-    this->setFillColor(Entity->get_color());
-    this->type = Entity->get_type();
-    Entity->set_position(coord[0],coord[1]);
 }

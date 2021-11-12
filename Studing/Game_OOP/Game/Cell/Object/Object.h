@@ -3,27 +3,24 @@
 
 #include <SFML/Graphics.hpp>
 #include <iostream>
-
-enum Conditions{
-    EMPTY,
-    PATHLESS,
-    PLAYER,
-    ENEMY,
-    EQUIPMENT,
-    ENTER,
-    EXIT
-};
+#include "../../Observer/IObserver.h"
+#include "../../Conditions.h"
 
 //Интерфейс
-class Object {
+class Object:public IObservable {
 public:
     /*virtual sf::Texture get_texture() = 0;
     virtual sf::Texture set_texture() = 0;*/
-    virtual sf::Color get_color() = 0;
-    virtual void set_color(sf::Color color) = 0;
     virtual Conditions get_type() = 0;
-    virtual int* get_position() = 0;
-    virtual void set_position(int x,int y) = 0;
+    virtual void interact(Object *&entity) = 0;
+    virtual void take_equip(Object *equip) = 0;
+    virtual int get_attack() = 0;
+    virtual int get_protection() = 0;
+    virtual int get_health() = 0;
+    virtual void set_attack(int attack) = 0;
+    virtual void set_protection(int protection) = 0;
+    virtual void set_health(int health) = 0;
+    virtual void move(Commands dir) = 0;
 };
 
 

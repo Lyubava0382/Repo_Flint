@@ -5,9 +5,13 @@
 
 //абстрактный класс
 class Enemy: public Character{
-    //sf::Texture texture;
+    void interact(Object *&entity) override{};
 public:
-
+    enum Type_enemy{SIMPLE, INCREASE, REPRODUCE};
+    virtual Type_enemy get_type_enemy();
+    virtual void death();
+protected:
+    Type_enemy type_enemy;
 };
 
 
