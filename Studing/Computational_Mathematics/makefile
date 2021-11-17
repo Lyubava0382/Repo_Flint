@@ -1,6 +1,6 @@
-ALL: main_sfml.o
-	g++ main_sfml.o -o sfml-app -lsfml-graphics -lsfml-window -lsfml-system
-main_sfml.o: main_sfml.cpp
-	g++ -c main_sfml.cpp
+ALL: Ejler.o
+	g++ Ejler.o -o Ejler-app -lsfml-graphics -lsfml-window -lsfml-system
+Ejler.o: Ejler.cpp
+	g++ -c Ejler.cpp
 clean:
-	rm *.o sfml-app
+	rm *.o Ejler-app
